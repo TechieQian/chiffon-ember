@@ -1,0 +1,10 @@
+<div class="coupon">
+  <div class="tooltip">
+    <span class="tooltip_text" id="myTooltip">
+      {{this.clipboardText}}
+    </span>
+  </div>
+
+  <i class="far fa-clipboard" {{on "mouseout" this.mouseout}} {{on "click" this.copy}}></i>
+  <input readonly value={{@code}} />
+</div>

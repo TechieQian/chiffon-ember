@@ -1,0 +1,17 @@
+{{page-title "Shop"}}
+
+<Body>
+  <section class="shop">
+    <div class="buttons">
+      <button key={tag} class="button is-small" type="button">text</button>
+    </div>
+    <div class="text">
+      Shop My Codes: Save money using my discount codes for toys, clothes,
+      treats and other supplies!
+    </div>
+    {{#each this.model as |sponsor|}}
+    <Sponsor @link={{sponsor.link}} @label={{sponsor.label}} @subtitle={{sponsor.subtitle}} @code={{sponsor.code}} />
+    {{/each}}
+  </section>
+</Body>
+{{outlet}}

@@ -1,0 +1,15 @@
+<div class='columns'>
+  <div class="column">
+    <div>
+      <a rel="noreferrer noopener" target="_blank" href={{@link}}>
+        {{@label}}
+      </a>
+      <div>{{@subtitle}}</div>
+    </div>
+  </div>
+  <div class="column">
+    {{#if @code}}
+    <Sponsor::Code @code={{@code}} />
+    {{/if}}
+  </div>
+</div>

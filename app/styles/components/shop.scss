@@ -1,0 +1,12 @@
+.shop {
+  background-color: white;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  :global(.tag) {
+    cursor: pointer;
+  }
+  .text {
+    margin-bottom: 15px;
+  }
+}
