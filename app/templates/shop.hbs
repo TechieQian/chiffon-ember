@@ -3,13 +3,15 @@
 <Body>
   <section class="shop">
     <div class="buttons">
-      <button key={tag} class="button is-small" type="button">text</button>
+      {{#each this.uniqueTags as |tag| }}
+      <button {{on "click" (fn this.toggleSelected tag)}} key={{tag.name}} class="button is-small {{if tag.active "is-primary"}}" type="button">{{tag.name}}</button>
+      {{/each}}
     </div>
     <div class="text">
       Shop My Codes: Save money using my discount codes for toys, clothes,
       treats and other supplies!
     </div>
-    {{#each this.model as |sponsor|}}
+    {{#each this.sponsors as |sponsor|}}
     <Sponsor @link={{sponsor.link}} @label={{sponsor.label}} @subtitle={{sponsor.subtitle}} @code={{sponsor.code}} />
     {{/each}}
   </section>
