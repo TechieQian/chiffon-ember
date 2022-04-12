@@ -1,7 +1,7 @@
 .coupon {
-  .fa-clipboard {
-    position: relative;
-    top: 2px;
+  .button {
+    position:relative;
+    bottom:3px;
   }
   &:hover {
     .tooltip {
@@ -15,6 +15,7 @@
     font-size: 15px;
     position: relative;
     display: inline-block;
+    left: 12px;
     .tooltip_text {
       visibility: hidden;
       width: 140px;

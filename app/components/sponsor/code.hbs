@@ -1,10 +1,16 @@
-<div class="coupon">
-  <div class="tooltip">
-    <span class="tooltip_text" id="myTooltip">
+<div class='coupon'>
+  <div class='tooltip'>
+    <span class='tooltip_text' id='myTooltip'>
       {{this.clipboardText}}
     </span>
   </div>
 
-  <i class="far fa-clipboard" {{on "mouseout" this.mouseout}} {{on "click" this.copy}}></i>
-  <input readonly value={{@code}} />
+  <button type='button' {{on 'click' this.copy}} {{on 'mouseout' this.mouseout}} class='button is-ghost'>
+    <span class='icon'>
+      <i class='far fa-clipboard'></i>
+    </span>
+  </button>
+  <label>
+    <input readonly value={{@code}} />
+  </label>
 </div>

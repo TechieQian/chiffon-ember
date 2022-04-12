@@ -7,8 +7,8 @@ export default class CodeComponent extends Component {
 
   @action
   copy(event) {
-    let el = event.target;
-    let inputEl = el.nextElementSibling;
+    let el = event.currentTarget;
+    let inputEl = el.nextElementSibling.firstElementChild;
     inputEl.select();
     inputEl.setSelectionRange(0, 99999);
     this.clipboardText = 'Copied';

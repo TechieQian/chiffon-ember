@@ -6,12 +6,9 @@ export default class ShopController extends Controller {
   @tracked selected = [];
 
   @action toggleSelected({ active, name }) {
-    console.log(active, name);
-    if (active) {
-      this.selected = this.selected.filter((tagName) => tagName !== name);
-    } else {
-      this.selected = [...this.selected, name];
-    }
+    return active
+      ? (this.selected = this.selected.filter((tagName) => tagName !== name))
+      : (this.selected = [...this.selected, name]);
   }
 
   get sponsors() {
