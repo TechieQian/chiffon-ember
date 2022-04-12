@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Chiffon the Maltipoo</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Chiffon the Maltipoo</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{content-for "head"}}
 
-  {{content-for "head"}}
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css" />
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/chiffon-ember.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
 
-  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
-  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/chiffon-ember.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    {{content-for "head-footer"}}
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  </head>
 
-  {{content-for "head-footer"}}
-</head>
+  <body>
+    {{content-for "body"}}
 
-<body>
-  {{content-for "body"}}
+    <script src="{{rootURL}}assets/vendor.js"></script>
+    <script src="{{rootURL}}assets/chiffon-ember.js"></script>
 
-  <script src="{{rootURL}}assets/vendor.js"></script>
-  <script src="{{rootURL}}assets/chiffon-ember.js"></script>
+    {{content-for "body-footer"}}
+    <!-- Slider main container -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-  {{content-for "body-footer"}}
-</body>
-
+    <!-- Initialize Swiper -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        var swiper = new Swiper('.swiper', {
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          direction: 'horizontal',
+          loop: true,
+          slidesPerView: 1,
+          autoplay: {
+            delay: 5000,
+          },
+        });
+      });
+    </script>
+  </body>
 </html>

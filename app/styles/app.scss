@@ -25,14 +25,17 @@ body {
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: Parisienne;
-  src: url("../assets/Parisienne-Regular.ttf");
-}
+// @font-face {
+//   font-family: Parisienne;
+//   src: url("Sail-Regular.ttf");
+// }
 
 .body {
   .container {
     margin-top: 20px;
+    border: 3px dotted #da7194;
+    padding: 15px;
+    background-color: #fff;
   }
   padding-left: 0.75rem;
 
@@ -40,4 +43,20 @@ body {
   min-height: 300px;
   font-size: 20px;
   flex-grow: 1;
+}
+
+.swiper img {
+  height: 300px;
+  width: 300px;
+}
+
+.swiper {
+  width: 300px;
+  height:300px;
+}
+
+@media only screen and (max-width: 1023px) {
+  .brand .icons {
+    justify-content: center;
+  }
 }

@@ -70,6 +70,7 @@
     "edition": "octane"
   },
   "dependencies": {
-    "bulma": "^0.9.3"
+    "bulma": "^0.9.3",
+    "swiper": "^8.1.0"
   }
 }
