@@ -267,38 +267,38 @@ export default [
     tags: ['Human', 'Home'],
   },
   {
-    link: "https://21bays.com/",
-    label: "21Bays",
-    code : "Chiffon", 
-    tags: ['Pet', 'Hairbows', 'Sailorbows']
+    link: 'https://21bays.com/',
+    label: '21Bays',
+    code: 'Chiffon',
+    tags: ['Pet', 'Hairbows', 'Sailorbows'],
   },
   {
     link: 'imp.i142493.net/2rqLMM',
     label: 'Getaway House',
     code: null,
     subtitle: 'Glamping cabin',
-    tags: ['Human']
+    tags: ['Human'],
   },
   {
     link: 'cariloha.pxf.io/YgPqBO',
     label: 'Cariloha',
     code: 'CHIFFON20',
-    tags: ['Human']
+    tags: ['Human'],
   },
   {
     link: 'https://www.thefoggydog.com/?rfsn=6672941.eb500f&utm_source=refersion&utm_medium=affiliate&utm_campaign=6672941.eb500f',
     label: 'The Foggy Dog',
     code: 'CHIFFON10',
-    subtitle : 'Bandanas, bowties, walk accessories', 
-    tags: ['Pet', 'Walk Accessories', 'Sailorbows', 'Bandanas']
+    subtitle: 'Bandanas, bowties, walk accessories',
+    tags: ['Pet', 'Walk Accessories', 'Sailorbows', 'Bandanas'],
   },
   {
     link: 'https://shareasale.com/r.cfm?b=1995539&u=2634834&m=123751&urllink=&afftrack=V',
     label: 'BRKLZ: 20% off',
     code: 'CHIFFON',
     subtitle: 'Collar charms and initials',
-    tags: ['Pet', 'Walk Accessories']
-  }
+    tags: ['Pet', 'Walk Accessories'],
+  },
   //  {
   //  link: "https://www.vanderpumppets.com/",
   //label: "Vanderpump Pets: 15% off",
