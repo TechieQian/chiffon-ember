@@ -32,9 +32,9 @@ export default [
     tags: ['Dog', 'Clothing', 'Walk Accessories', 'Dog Mom/Dad', 'Human'],
   },
   {
-    link: 'https://www.furbabycouture.com/?wpam_id=112',
-    label: 'Fur Baby Couture',
-    code: null,
+    link: 'https://www.furbabycouture.com/?ref=KCfzFDjW',
+    label: 'Fur Baby Couture: 10% off',
+    code: 'chiffon',
     subtitle: 'Dog clothing, fancy dresses, accessories, and more',
     tags: ['Dog', 'Clothing'],
   },
@@ -136,9 +136,9 @@ export default [
     tags: ['Pet', 'Clothing', 'Walk Accessories', 'Food', 'Carriers'],
   },
   {
-    link: 'http://i.refs.cc/3jn5PukK?smile_ref=http://i.refs.cc/3jn5PukK?smile_ref=eyJzbWlsZV9zb3VyY2UiOiJzbWlsZV91aSIsInNtaWxlX21lZGl1bSI6IiIsInNtaWxlX2NhbXBhaWduIjoicmVmZXJyYWxfcHJvZ3JhbSIsInNtaWxlX2N1c3RvbWVyX2lkIjo0MTMxODczOTl9',
-    label: 'Lucy & Co.: $5 off coupon; 15% off with code',
-    code: 'LCCHIFF15',
+    link: 'https://www.lucyand.co?dt_id=71112',
+    label: 'Lucy & Co.: 15% off',
+    code: 'CHIFFONTHEMALTIPOO',
     subtitle: 'Outerwear, walk accessories, and more',
     tags: ['Pet', 'Clothing', 'Human', 'Bandanas', 'Walk Accessories', 'Dog Mom/Dad'],
   },
@@ -266,6 +266,39 @@ export default [
     subtitle: 'French cookware and bakeware; LE TUBE pastry gun',
     tags: ['Human', 'Home'],
   },
+  {
+    link: "https://21bays.com/",
+    label: "21Bays",
+    code : "Chiffon", 
+    tags: ['Pet', 'Hairbows', 'Sailorbows']
+  },
+  {
+    link: 'imp.i142493.net/2rqLMM',
+    label: 'Getaway House',
+    code: null,
+    subtitle: 'Glamping cabin',
+    tags: ['Human']
+  },
+  {
+    link: 'cariloha.pxf.io/YgPqBO',
+    label: 'Cariloha',
+    code: 'CHIFFON20',
+    tags: ['Human']
+  },
+  {
+    link: 'https://www.thefoggydog.com/?rfsn=6672941.eb500f&utm_source=refersion&utm_medium=affiliate&utm_campaign=6672941.eb500f',
+    label: 'The Foggy Dog',
+    code: 'CHIFFON10',
+    subtitle : 'Bandanas, bowties, walk accessories', 
+    tags: ['Pet', 'Walk Accessories', 'Sailorbows', 'Bandanas']
+  },
+  {
+    link: 'https://shareasale.com/r.cfm?b=1995539&u=2634834&m=123751&urllink=&afftrack=V',
+    label: 'BRKLZ: 20% off',
+    code: 'CHIFFON',
+    subtitle: 'Collar charms and initials',
+    tags: ['Pet', 'Walk Accessories']
+  }
   //  {
   //  link: "https://www.vanderpumppets.com/",
   //label: "Vanderpump Pets: 15% off",
