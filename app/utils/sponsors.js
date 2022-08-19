@@ -96,13 +96,6 @@ export default [
     tags: ['Pet', 'Toys', 'Dog Mom/Dad'],
   },
   {
-    link: 'http://i.refs.cc/k9Il2ZvM?smile_ref=eyJzbWlsZV9zb3VyY2UiOiJzbWlsZV91aSIsInNtaWxlX21lZGl1bSI6IiIsInNtaWxlX2NhbXBhaWduIjoicmVmZXJyYWxfcHJvZ3JhbSIsInNtaWxlX2N1c3RvbWVyX2lkIjo3MjE1OTYyMzl9',
-    label: 'Unique Opal Co: $5 off coupon; 10% off with code',
-    code: 'CHIFFON10',
-    subtitle: 'Custom tutus, dog bandanas and hoodies',
-    tags: ['Pet', 'Clothing', 'Bandanas'],
-  },
-  {
     link: 'https://www.parisianpet.com/?Click=6069',
     label: 'Parisian Pet: 10% off',
     code: 'CHIFFON10',
@@ -121,13 +114,6 @@ export default [
   //  code: "CHIFFON25",
   //  subtitle: "Pet apparel",
   //},
-  {
-    link: 'https://www.etsy.com/shop/Mariposandco',
-    label: 'Mariposa & Co: 10% off',
-    code: 'CHIFFON',
-    subtitle: 'Hairbows, sailor bows and bandanas',
-    tags: ['Pet', 'Hairbows', 'Sailorbows', 'Bandanas'],
-  },
   {
     link: 'https://max-bone.bop8.net/kn5Wz',
     label: 'Max-Bone: 15% off',
@@ -218,7 +204,7 @@ export default [
     tags: ['Human', 'Shoes', 'Clothing'],
   },
   {
-    link: 'www.tentree.com?utm_source=brandbassador&utm_medium=ambassador&ref=bb-xz32gw',
+    link: 'https://www.tentree.com?utm_source=brandbassador&utm_medium=ambassador&ref=bb-xz32gw',
     label: 'Tentree: 15% off; Ask me for current code',
     code: 'TBCHIFFON4',
     subtitle: 'Sustainable, 100% organic cotton human clothing',
@@ -239,7 +225,7 @@ export default [
     tags: ['Human', 'Makeup'],
   },
   {
-    link: 'giesswein.com/?ref=bb-xz32gw',
+    link: 'https://giesswein.com/?ref=bb-xz32gw',
     label: 'Giesswein: 15% off; Ask me for current code',
     code: 'BBCHIFF2',
     subtitle: 'Organic, eco-friendly and sustainable shoes',
@@ -273,14 +259,14 @@ export default [
     tags: ['Pet', 'Hairbows', 'Sailorbows'],
   },
   {
-    link: 'imp.i142493.net/2rqLMM',
+    link: 'https://imp.i142493.net/2rqLMM',
     label: 'Getaway House',
     code: null,
     subtitle: 'Glamping cabin',
     tags: ['Human'],
   },
   {
-    link: 'cariloha.pxf.io/YgPqBO',
+    link: 'https://cariloha.pxf.io/YgPqBO',
     label: 'Cariloha',
     code: 'CHIFFON20',
     tags: ['Human'],
