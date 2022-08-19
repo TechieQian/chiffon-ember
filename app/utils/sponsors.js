@@ -1,3 +1,12 @@
+/*
+  Jessica instructions:
+  1) Make the changes
+  2) Save.
+  3) git add -A
+  4) git commit -m "changing sponsor"
+  5) git push origin master
+*/
+
 export default [
   {
     link: 'https://www.poshpuppyboutique.com?sca_ref=1237600.asXdCJaMoQ',
